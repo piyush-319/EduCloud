@@ -1,15 +1,4 @@
 <p align="center">
-  <img src="educloud-banner.gif" alt="EduCloud Banner" width="100%">
-</p>
-# ☁️ EduCloud – Cloud-Based Learning Platform
-
-A scalable cloud-based learning platform built using **React, Node.js, PostgreSQL, AWS, and Docker**.
-
-EduCloud is designed to provide a modern learning experience with a React-based frontend, Node.js backend, PostgreSQL database, and AWS cloud infrastructure.
-
-<!-- Add the original animated EduCloud banner here once the GIF is uploaded to a public URL -->
-
-<p align="center">
   <b>Learn • Build • Deploy • Scale</b>
 </p>
 
