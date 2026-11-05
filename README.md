@@ -1,9 +1,6 @@
 <p align="center">
-  <b>Learn • Build • Deploy • Scale</b>
+  <img src="./EduCloud%20Neon%20Wave%20Animation%20%281.5x%29.gif" alt="EduCloud Banner" width="100%">
 </p>
-
----
-
 ## 🌐 Live Project
 
 **Website:** https://myeducloud.in
