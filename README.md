@@ -30,7 +30,6 @@ The project includes:
 
 ---
 
-
 ## 🏗️ AWS Architecture
 
 ```mermaid
@@ -53,9 +52,9 @@ flowchart TB
 
     D --> FE
     N -->|"API requests"| API
+```
 
 
----
 
 ## ✨ Key Features
 
