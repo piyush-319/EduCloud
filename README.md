@@ -28,6 +28,28 @@ The project includes:
 - Docker for application containerization.
 - GitHub Actions workflows for CI.
 
+flowchart TB
+    U["Users"] --> D["myeducloud.in"]
+    
+    subgraph FV["Frontend VPC - 10.0.0.0/16"]
+        FE["Frontend EC2"]
+        N["Nginx"]
+        R["React Application"]
+        FE --> N --> R
+    end
+
+    subgraph BV["Backend VPC - 10.20.0.0/16"]
+        BE["Backend EC2 - 10.20.1.124"]
+        API["Node.js + Express API"]
+        DB[("Amazon RDS - PostgreSQL")]
+        BE --> API --> DB
+    end
+
+    D --> FE
+    N -->|" /api/ requests "| API
+    style FV fill:#e8f2ff,stroke:#3676b8
+    style BV fill:#eaf7ed,stroke:#39844b
+
 ---
 
 ## ✨ Key Features
