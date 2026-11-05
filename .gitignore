@@ -1,0 +1,28 @@
+# Dependencies
+**/node_modules/
+
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build files
+frontend/dist/
+**/dist-ssr/
+
+# Logs
+**/*.log
+**/npm-debug.log*
+
+# Local files
+**/.DS_Store
+**/.vscode/
+**/.idea/
+
+# Git history backups
+**/.git-history-backup/
+**/*.backup
+**/*.before-* 
+backend/check-db.js
+backend/seed-db.js
+backend/setup-db.js

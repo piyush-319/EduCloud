@@ -1,0 +1,11 @@
+node_modules
+.git
+.github
+.env
+.env.*
+npm-debug.log
+Dockerfile
+.dockerignore
+check-db.js
+seed-db.js
+setup-db.js
