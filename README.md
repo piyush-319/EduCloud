@@ -127,9 +127,13 @@ docker pull piyush200331/educloud:backend-v2
 ## 📁 Project Structure
 
 ```text
+
 EduCloud/
 │
 ├── frontend/
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── frontend-ci.yml
 │   ├── public/
 │   ├── src/
 │   ├── Dockerfile
@@ -137,16 +141,17 @@ EduCloud/
 │   └── README.md
 │
 ├── backend/
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── backend-ci.yml
 │   ├── server.js
 │   ├── Dockerfile
 │   ├── package.json
 │   └── package-lock.json
 │
-├── .github/
-│   └── workflows/
-│
 ├── .gitignore
 └── README.md
+
 ```
 
 ---
