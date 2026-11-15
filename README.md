@@ -6,9 +6,7 @@
 
 ## 🎬 Project Demo
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/9e54db13-2000-4afd-b955-5a5da6b6124e" controls width="100%"></video>
-</p>
+https://github.com/user-attachments/assets/9e54db13-2000-4afd-b955-5a5da6b6124e
 
 ---
 
