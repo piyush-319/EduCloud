@@ -13,8 +13,8 @@ https://github.com/user-attachments/assets/9e54db13-2000-4afd-b955-5a5da6b6124e
 ## 🌐 Live Project
 
 **Website:** https://myeducloud.in  
-**GitHub Repository:** https://github.com/piyush-319/EduCloud  
-**Docker Hub:** https://hub.docker.com/r/piyush200331/educloud
+**GitHub Repository:** https://github.com/piyush-319/EduCloud         https://github.com/Mahek-319  
+**Docker Hub:** https://hub.docker.com/r/piyush200331/educloud        https://hub.docker.com/r/mahek19/educloud
 
 ---
 
