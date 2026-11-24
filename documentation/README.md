@@ -54,3 +54,23 @@ This documentation covers the project architecture, infrastructure, application 
 <p align="center">
   <b>EduCloud — Learn. Build. Deploy.</b>
 </p>
+
+## 🖼️ Application Screenshots
+
+### Homepage
+![EduCloud Homepage](assets/screenshots/01-homepage.png)
+
+### Learning Paths
+![Learning Paths](assets/screenshots/02-learning-paths.png)
+
+### Why EduCloud
+![Why EduCloud](assets/screenshots/03-why-educloud.png)
+
+### Projects
+![Projects](assets/screenshots/04-projects.png)
+
+### Login
+![Login Page](assets/screenshots/05-login.png)
+
+### Registration
+![Registration Page](assets/screenshots/06-registration.png)
