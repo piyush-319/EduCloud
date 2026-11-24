@@ -57,3 +57,9 @@ Connectivity was verified with a successful HTTP 200 response from the backend.
 ## 7. Project Website
 
 https://myeducloud.in
+
+## 8. AWS Architecture Diagram
+
+The diagram below provides a visual overview of the EduCloud AWS infrastructure.
+
+![EduCloud AWS Architecture](assets/architecture/educloud-aws-architecture.png)
