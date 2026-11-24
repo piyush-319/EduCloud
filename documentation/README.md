@@ -74,3 +74,9 @@ This documentation covers the project architecture, infrastructure, application 
 
 ### Registration
 ![Registration Page](assets/screenshots/06-registration.png)
+
+## AWS Architecture
+
+The following diagram illustrates the EduCloud AWS infrastructure, including the Frontend EC2, Backend EC2, and VPC Peering connection.
+
+![EduCloud AWS Architecture](assets/architecture/educloud-aws-architecture.png)
