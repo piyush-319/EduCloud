@@ -25,7 +25,7 @@ EduCloud is a collaborative full-stack learning platform built to combine web de
 The platform includes:
 - React frontend for the user interface.
 - Node.js and Express backend for API services.
-- PostgreSQL database hosted on Amazon RDS.
+- PostgreSQL database integration; current AWS database deployment status is not independently verified.
 - AWS EC2 instances in separate frontend and backend VPC environments.
 - Nginx for frontend hosting and API reverse proxy.
 - Docker images for frontend and backend applications.
@@ -89,14 +89,14 @@ EduCloud uses separate AWS VPC environments for frontend and backend application
 - Backend VPC CIDR: 10.20.0.0/16
 - Private subnet: 10.20.1.0/24
 - Ubuntu EC2 instance runs the Node.js/Express backend.
-- Backend communicates with PostgreSQL hosted on Amazon RDS.
+- Backend database connectivity details are not included in the currently verified AWS infrastructure documentation.
 
 ### AWS Services
 - **Amazon EC2:** Hosts frontend and backend services.
 - **Amazon VPC:** Provides network isolation.
 - **Public and Private Subnets:** Separate application network placement.
 - **Security Groups:** Control traffic between application components.
-- **Amazon RDS:** Hosts the PostgreSQL database.
+- **Amazon RDS:** Database deployment status is not independently verified.
 - **Nginx:** Serves the frontend and forwards API requests.
 - **AWS Systems Manager:** Supports instance management.
 
@@ -108,7 +108,7 @@ EduCloud uses separate AWS VPC environments for frontend and backend application
 |---|---|
 | Frontend | React, JavaScript, CSS, Vite |
 | Backend | Node.js, Express.js |
-| Database | PostgreSQL, Amazon RDS |
+| Database | PostgreSQL (RDS deployment status not verified) |
 | Cloud | AWS EC2, VPC, IAM, Security Groups |
 | Web Server | Nginx |
 | Containers | Docker, Docker Hub |
@@ -158,7 +158,7 @@ These are CI workflows. Automated Docker publishing and deployment (CD) are not 
 |---|---|
 | Frontend design and development | Completed |
 | Backend development | Completed |
-| PostgreSQL and Amazon RDS integration | Configured |
+| PostgreSQL and Amazon RDS integration | Not independently verified |
 | AWS EC2 and VPC infrastructure | Configured |
 | Nginx, domain and HTTPS | Configured |
 | Docker images built and pushed | Completed |
