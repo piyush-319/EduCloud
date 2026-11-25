@@ -145,8 +145,8 @@ Docker images have been built and published to Docker Hub.
 
 GitHub Actions workflow files are present in the repository:
 
-- frontend/.github/workflows/frontend-ci.yml — installs dependencies and builds the React frontend.
-- backend/.github/workflows/backend-ci.yml — installs dependencies and checks backend JavaScript syntax.
+- .github/workflows/frontend-ci.yml — installs dependencies and builds the React frontend.
+- .github/workflows/backend-ci.yml — installs dependencies and checks backend JavaScript syntax.
 
 These are CI workflows. Automated Docker publishing and deployment (CD) are not yet configured. Workflow execution can be checked in the repository's Actions tab.
 
@@ -176,6 +176,10 @@ These are CI workflows. Automated Docker publishing and deployment (CD) are not 
 - Review existing AWS resources before importing or managing them with Terraform; avoid accidental recreation of live resources.
 
 ---
+
+## 📚 Documentation
+
+Detailed project documentation, architecture diagrams and application screenshots are available in the [Documentation Index](documentation/README.md).
 
 ## 📁 Project Structure
 
