@@ -8,7 +8,25 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 const app = express();
 
-app.use(cors());
+const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  "http://localhost:5173",
+]
+  .filter(Boolean)
+  .map((origin) => origin.replace(/\/$/, ""));
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      // Allow non-browser requests (for example, curl and server-to-server calls).
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Origin not allowed by CORS"));
+    },
+  })
+);
 app.use(express.json());
 
 const mailTransporter = nodemailer.createTransport({
