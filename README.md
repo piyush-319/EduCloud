@@ -178,6 +178,8 @@ These are CI workflows. Automated Docker publishing and deployment (CD) are not 
 ---
 
 ## 📁 Project Structure
+
+```text
 EduCloud/
 ├── documentation/
 │   ├── 01-project-overview.md
@@ -191,6 +193,7 @@ EduCloud/
 │   ├── 09-troubleshooting.md
 │   ├── 10-cost-optimization.md
 │   ├── 11-future-improvements.md
+│   ├── README.md
 │   └── assets/
 │       ├── architecture/
 │       │   └── educloud-aws-architecture.png
@@ -218,6 +221,8 @@ EduCloud/
 │   └── package-lock.json
 ├── .gitignore
 └── README.md
+```
+
 ---
 
 ## 💻 Run Locally
