@@ -164,7 +164,7 @@ These are CI workflows. Automated Docker publishing and deployment (CD) are not 
 | Docker images built and pushed | Completed |
 | Frontend Docker container test | Completed |
 | Backend Docker deployment | Not completed |
-| GitHub Actions CI workflows | Workflow files added |
+| GitHub Actions CI workflows | Passed — frontend build and backend syntax checks |
 | Automated CD / Docker image publishing | Planned |
 | Terraform – Infrastructure as Code | Planned |
 
@@ -204,17 +204,17 @@ EduCloud/
 │           ├── 04-projects.png
 │           ├── 05-login.png
 │           └── 06-registration.png
+├── .github/
+│   └── workflows/
+│       ├── frontend-ci.yml
+│       └── backend-ci.yml
 ├── frontend/
-│   ├── .github/workflows/
-│   │   └── frontend-ci.yml
 │   ├── public/
 │   ├── src/
 │   ├── Dockerfile
 │   ├── package.json
 │   └── package-lock.json
 ├── backend/
-│   ├── .github/workflows/
-│   │   └── backend-ci.yml
 │   ├── server.js
 │   ├── Dockerfile
 │   ├── package.json
