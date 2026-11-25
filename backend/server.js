@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const { Pool } = require("pg");
+const fs = require("fs");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
@@ -46,7 +47,8 @@ const pool = new Pool({
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   ssl: {
-    rejectUnauthorized: false,
+    ca: fs.readFileSync(process.env.DB_SSL_CA_PATH, "utf8"),
+    rejectUnauthorized: true,
   },
 });
 
