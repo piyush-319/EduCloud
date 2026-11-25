@@ -179,22 +179,46 @@ These are CI workflows. Automated Docker publishing and deployment (CD) are not 
 
 ## 📁 Project Structure
 
-    EduCloud/
-    ├── frontend/
-    │   ├── .github/workflows/frontend-ci.yml
-    │   ├── public/
-    │   ├── src/
-    │   ├── Dockerfile
-    │   ├── package.json
-    │   └── README.md
-    ├── backend/
-    │   ├── .github/workflows/backend-ci.yml
-    │   ├── server.js
-    │   ├── Dockerfile
-    │   ├── package.json
-    │   └── package-lock.json
-    ├── .gitignore
-    └── README.md
+EduCloud/
+├── documentation/
+│   ├── 01-project-overview.md
+│   ├── 02-aws-architecture.md
+│   ├── 03-aws-infrastructure.md
+│   ├── 04-networking-security.md
+│   ├── 05-frontend-backend.md
+│   ├── 06-api-documentation.md
+│   ├── 07-docker-implementation.md
+│   ├── 08-testing-validation.md
+│   ├── 09-troubleshooting.md
+│   ├── 10-cost-optimization.md
+│   ├── 11-future-improvements.md
+│   └── assets/
+│       ├── architecture/
+│       │   └── educloud-aws-architecture.png
+│       └── screenshots/
+│           ├── 01-homepage.png
+│           ├── 02-learning-paths.png
+│           ├── 03-why-educloud.png
+│           ├── 04-projects.png
+│           ├── 05-login.png
+│           └── 06-registration.png
+├── frontend/
+│   ├── .github/workflows/
+│   │   └── frontend-ci.yml
+│   ├── public/
+│   ├── src/
+│   ├── Dockerfile
+│   ├── package.json
+│   └── package-lock.json
+├── backend/
+│   ├── .github/workflows/
+│   │   └── backend-ci.yml
+│   ├── server.js
+│   ├── Dockerfile
+│   ├── package.json
+│   └── package-lock.json
+├── .gitignore
+└── README.md
 
 ---
 
